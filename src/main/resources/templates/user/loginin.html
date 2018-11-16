@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=7"/>
+    <title>用户注册</title>
+    <meta name="description" content="描述：密码检查"/>
+    <meta name="keywords" content="关键字：密码"/>
+</head>
+
+<script type="text/javascript">
+    function Check() {
+        var passwd1 = document.loginin.newPassword1.value;
+        var passwd2 = document.loginin.newPassword2.value;
+
+        if (passwd1 === "") {
+            document.loginin.explain2.innerText = "密码空，请输入";
+            document.loginin.explain3.innerText = "";
+            return;
+        }
+        if (passwd1 !== passwd2) {
+            document.loginin.explain2.innerText = "";
+            document.loginin.explain3.innerText = "密码不一致，请重输入";
+            document.loginin.newPassword1.innerText = "";
+            document.loginin.newPassword2.innerText = "";
+        } else {
+            document.loginin.explain2.innerText = "";
+            document.loginin.explain3.innerText = "";
+        }
+    }
+</script>
+
+<form name="loginin" method="post" action="user/add">
+    <table width="900" cellpadding="3">
+        <tr>
+            <td align="right" width="200">用户名：</td>
+            <td width="200">&nbsp;<input type="text" name="newName"/></td>
+            <td width="500"><input width=500 type="text" style="color: red; border-style: solid; border-width:0"
+                                   name="explain1" readonly/></td>
+        </tr>
+        <tr>
+            <td align="right" width="200">用户密码：</td>
+            <td width="200">&nbsp;<input type="password" name="newPassword1"/></td>
+            <td width="500"><input width=500 type="text" style="color: red; border-style: solid; border-width:0"
+                                   name="explain2" readonly/></td>
+        </tr>
+        <tr>
+            <td align="right" width="200">确认密码：</td>
+            <td width="200">&nbsp;<input type="password" name="newPassword2" onBlur="Check()"/></td>
+            <td width="500"><input width=500 type="text" style="color: red; border-style: solid; border-width:0"
+                                   name="explain3" readonly/></td>
+        </tr>
+        <tr>
+            <td align="right" width="400"></td>
+            <td width="200">&nbsp;<input type="submit" name="提交"/></td>
+            <td width="500"><input width=500 type="text" style="color: red; border-style: solid; border-width:0"
+                                   name="explain4" readonly/></td>
+        </tr>
+    </table>
+</form>
+</html>

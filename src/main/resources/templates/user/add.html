@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>添加用户</title>
+    <!-- Bootstrap core CSS -->
+    <link href="asserts/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/4.1.3/css/bootstrap.css}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="asserts/css/dashboard.css" th:href="@{/static/asserts/css/dashboard.css}" rel="stylesheet">
+    <style type="text/css">
+        /* Chart.js */
+
+        @-webkit-keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        .chartjs-render-monitor {
+            -webkit-animation: chartjs-render-animation 0.001s;
+            animation: chartjs-render-animation 0.001s;
+        }
+    </style>
+</head>
+
+<body>
+<!--引入抽取的topbar-->
+<!--模板名：会使用thymeleaf的前后缀配置规则进行解析-->
+<div th:replace="commons/bar::topbar"></div>
+
+<div class="container-fluid">
+    <div class="row">
+        <!--引入侧边栏-->
+        <div th:replace="commons/bar::#sidebar(activeUri='users')"></div>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <!--需要区分是员工修改还是添加；-->
+            <form th:action="@{/user}" method="post">
+                <!--发送put请求修改员工数据-->
+                <!--
+                1、SpringMVC中配置HiddenHttpMethodFilter;（SpringBoot自动配置好的）
+                2、页面创建一个post表单
+                3、创建一个input项，name="_method";值就是我们指定的请求方式
+                -->
+                <input type="hidden" name="_method" value="put" th:if="${user!=null}"/>
+                <input type="hidden" name="id" th:if="${user!=null}" th:value="${id}">
+                <div class="form-group">
+                    <label>学号/教职工号</label>
+                    <input name="userId" type="text" class="form-control" placeholder="17020100000"
+                           th:value="${user!=null}?${user.userId}">
+                </div>
+                <div class="form-group">
+                    <label>姓名</label>
+                    <input name="userName" type="text" class="form-control" placeholder="张三"
+                           th:value="${user!=null}?${user.userName}">
+                </div>
+                <div class="form-group">
+                    <label>身份标识</label>
+                    <input name="identity" type="text" class="form-control" placeholder="user:teacher"
+                           th:value="${user!=null}?${user.identity}">
+                </div>
+                <div class="form-group">
+                    <label>性别</label><br/>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" value="1"
+                               th:checked="${user!=null}?${user.gender==1}">
+                        <label class="form-check-label">男</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" value="0"
+                               th:checked="${user!=null}?${user.gender==0}">
+                        <label class="form-check-label">女</label>
+                    </div>
+                    <div class="form-group">
+                        <label>学院/部门</label>
+                        <input name="collage" type="text" class="form-control" placeholder="信息学院"
+                               th:value="${user!=null}?${user.collage}">
+                    </div>
+                    <div class="form-group">
+                        <label>年级/职务/职称</label>
+                        <input name="grade" type="text" class="form-control" placeholder="硕信17级/处长/教授"
+                               th:value="${user!=null}?${user.grade}">
+                    </div>
+                    <div class="form-group">
+                        <label>手机号</label>
+                        <input name="phone" type="text" class="form-control" placeholder="18758861624"
+                               th:value="${user!=null}?${user.phone}">
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary" th:text="${user!=null}?'修改':'添加'">添加</button>
+            </form>
+        </main>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="asserts/js/jquery-3.2.1.slim.min.js"
+        th:src="@{/webjars/jquery/3.2.1/jquery.js}"></script>
+<script type="text/javascript" src="asserts/js/popper.min.js"
+        th:src="@{/webjars/popper.js/1.11.1/dist/popper.js}"></script>
+<script type="text/javascript" src="asserts/js/bootstrap.min.js"
+        th:src="@{/webjars/bootstrap/4.1.3/js/bootstrap.js}"></script>
+
+<!-- Icons -->
+<script type="text/javascript" src="asserts/js/feather.min.js" th:src="@{/static/asserts/js/feather.min.js}"></script>
+<script>
+    feather.replace()
+</script>
+
+</body>
+
+</html>

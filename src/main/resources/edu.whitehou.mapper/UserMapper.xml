@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.whitehou.mapper.UserMapper">
+    <select id="findAllUsers" resultType="edu.whitehou.entity.User">
+        select id,userId,username,gender,identity,collage,grade,phone from user_account_msg
+    </select>
+    <select id="findUserById" resultType="edu.whitehou.entity.User">
+        select id,userId,username,gender,identity,collage,grade,phone from user_account_msg where id=#{id}
+    </select>
+    <insert id="addUser" useGeneratedKeys="true" keyProperty="id">
+        insert  into user_account_msg(userId,username,password,gender,identity,collage,grade,phone)
+        values (#{userId},#{userName},#{userId},#{gender},#{identity},#{collage},#{grade},#{phone})
+    </insert>
+    <update id="updateUser">
+        update user_account_msg set userId=#{userId},username=#{userName},gender=#{gender},identity=#{identity},collage=#{collage},grade=#{grade},phone=#{phone}
+        where id=#{id}
+    </update>
+    <delete id="deleteUserById">
+        delete from user_account_msg where id=#{id}
+    </delete>
+</mapper>
