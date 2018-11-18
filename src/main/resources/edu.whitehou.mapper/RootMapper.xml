@@ -4,6 +4,21 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="edu.whitehou.mapper.RootMapper">
     <select id="findRootTokenByRootName" resultType="edu.whitehou.entity.Root">
-        select rootname,password,identity from root_account_msg where rootname=#{rootname};
+       select rootname,password,identity from root_account_msg where rootname=#{rootName}
     </select>
+    <select id="findAllRoots" resultType="edu.whitehou.entity.Root">
+        select id,rootname,identity,date from root_account_msg  where  id>1
+    </select>
+    <select id="findRootById" resultType="edu.whitehou.entity.Root">
+        SELECT  id,rootname,identity from  root_account_msg where id=#{id} and id != 1
+    </select>
+    <insert id="addRoot" useGeneratedKeys="true" keyProperty="id">
+        insert  into root_account_msg (rootname, password, identity) values (#{rootName},#{rootName},#{identity})
+    </insert>
+    <update id="updateRoot">
+        update root_account_msg set rootname=#{rootName},password=#{rootName},identity=#{identity} where id=#{id}
+    </update>
+    <delete id="deleteRoot">
+        delete  from root_account_msg where  id=#{id}
+    </delete>
 </mapper>

@@ -37,6 +37,8 @@ public class ManageApplicationMabtisTests {
         System.out.println(user);*/
         /*User userById = userMapper.findUserById(1);
         System.out.println(userById);*/
+        Collection<Root> allRoot = rootMapper.findAllRoots();
+        System.out.println(allRoot);
 
 
     }

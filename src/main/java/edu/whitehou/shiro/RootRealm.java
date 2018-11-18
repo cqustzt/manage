@@ -64,9 +64,9 @@ public class RootRealm extends AuthorizingRealm {
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
         Subject subject=SecurityUtils.getSubject();
         Root root=(Root)subject.getPrincipal();
-        Root dbRoot=rootService.findRootTokenByRootName(root.getUserName());
+        Root dbRoot=rootService.findRootTokenByRootName(root.getRootName());
         simpleAuthorizationInfo.addStringPermission(dbRoot.getIdentity());
-        loggerAuthorizationInfo.debug("获取到的数据库对象的名字是： "+root.getUserName()+"获取到的数据库对象的身份标识是： "+root.getIdentity());
+        loggerAuthorizationInfo.debug("获取到的数据库对象的名字是： "+root.getRootName()+"获取到的数据库对象的身份标识是： "+root.getIdentity());
         return simpleAuthorizationInfo;
     }
 }

@@ -14,6 +14,7 @@ public class Root implements Serializable {
      * 序号id 主键 自增
      */
     private Integer id;
+
     /**
      * 用户名
      */
@@ -39,14 +40,13 @@ public class Root implements Serializable {
         this.id = id;
     }
 
-    public String getUserName() {
+    public String getRootName() {
         return rootName;
     }
 
-    public void setUserName(String userName) {
-        this.rootName = userName;
+    public void setRootName(String rootName) {
+        this.rootName = rootName;
     }
-
     public String getPassword() {
         return password;
     }
