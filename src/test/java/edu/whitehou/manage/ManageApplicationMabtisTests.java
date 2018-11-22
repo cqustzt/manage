@@ -7,6 +7,8 @@ import edu.whitehou.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mybatis.spring.boot.test.autoconfigure.MybatisTest;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -37,9 +39,11 @@ public class ManageApplicationMabtisTests {
         System.out.println(user);*/
         /*User userById = userMapper.findUserById(1);
         System.out.println(userById);*/
-        Collection<Root> allRoot = rootMapper.findAllRoots();
+        /*Collection<Root> allRoot = rootMapper.findAllRoots();
         System.out.println(allRoot);
-
+*/
+        Integer userCountNum = userMapper.findUserCountNum();
+        System.out.println(userCountNum);
 
     }
 

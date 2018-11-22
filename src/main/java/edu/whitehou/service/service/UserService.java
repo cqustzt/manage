@@ -3,6 +3,7 @@ package edu.whitehou.service.service;
 import edu.whitehou.entity.User;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * @author : white.hou
@@ -39,5 +40,11 @@ public interface UserService {
      * @param id
      */
     void deleteUserById(Integer id);
+
+    /**
+     * 分页查询所有用户
+     * @return
+     */
+    List<User> findUserByPages();
 
 }

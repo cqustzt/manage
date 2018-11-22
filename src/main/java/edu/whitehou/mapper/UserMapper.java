@@ -1,9 +1,11 @@
 package edu.whitehou.mapper;
 
 import edu.whitehou.entity.User;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * @author : white.hou
@@ -16,6 +18,12 @@ public interface UserMapper {
      * 查找所有的用户
      */
     Collection <User> findAllUsers();
+
+    /**
+     * 分页用 查询所有的用户1
+     * @return
+     */
+    List<User> findAllUsersByPage();
 
     /**
      * 根据Id查找指定用户
@@ -40,5 +48,11 @@ public interface UserMapper {
      * @param id
      */
     void deleteUserById(Integer id);
+
+    /**
+     * 查询总的用户记录数目
+     * @return
+     */
+    Integer findUserCountNum();
 
 }

@@ -20,4 +20,11 @@
     <delete id="deleteUserById">
         delete from user_account_msg where id=#{id}
     </delete>
+    <select id="findUserCountNum" resultType="Integer">
+        select count(*)
+        from user_account_msg where 1=1;
+    </select>
+    <select id="findAllUsersByPage" resultType="edu.whitehou.entity.User">
+        select  id,userId,username,gender,identity,collage,grade,phone from user_account_msg
+    </select>
 </mapper>
