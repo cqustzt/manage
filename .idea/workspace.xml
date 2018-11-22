@@ -4,22 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/RootMapper.java" line="24" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c09980a-9c19-4b1f-adfa-50620a95bf6b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../manage/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/manage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/resources/edu.whitehou.mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/resources/edu.whitehou.mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/resources/resources/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/resources/templates/commons/bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/resources/templates/commons/bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/resources/templates/user/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manage/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c09980a-9c19-4b1f-adfa-50620a95bf6b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -310,6 +295,27 @@
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -537,7 +543,7 @@
       <workItem from="1542802565638" duration="1907000" />
       <workItem from="1542885784854" duration="212000" />
       <workItem from="1542886124896" duration="69000" />
-      <workItem from="1542886216115" duration="760000" />
+      <workItem from="1542886216115" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */">
       <created>1542509063789</created>
@@ -546,7 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542509063789</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */">
+      <created>1542887040992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542887040992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */">
+      <created>1542887110201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542887110201</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -582,13 +602,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111244000" />
+    <option name="totallyTimeSpent" value="111559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.31241083" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32908848" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -604,7 +625,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932975" weight="0.32952926" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.17261055" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
@@ -626,6 +647,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
