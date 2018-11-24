@@ -35,7 +35,9 @@ public class UserSeviceImpl implements UserService {
 
     @Override
     public User findUserById(Integer id) {
-        return userMapper.findUserById(id);
+        System.out.println("查询第"+id+"号用户");
+        User userById = userMapper.findUserById(id);
+        return userById;
     }
 
     @Override

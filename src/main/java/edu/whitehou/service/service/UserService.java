@@ -1,6 +1,7 @@
 package edu.whitehou.service.service;
 
 import edu.whitehou.entity.User;
+import org.springframework.cache.annotation.Cacheable;
 
 import java.util.Collection;
 import java.util.List;
@@ -27,6 +28,11 @@ public interface UserService {
      * @param id
      * @return
      */
+    @Cacheable(cacheNames = "user",key = "#id")
+    /**
+     * @Cacheable  key 指定缓存数据时使用的key，默认是方法参数，可以使sqEL表达式，与keyGenerator二选一，其中keyGenerator自己编写1
+     *
+     * */
     User findUserById(Integer id);
 
     /**
