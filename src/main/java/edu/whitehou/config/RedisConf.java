@@ -48,7 +48,7 @@ public class RedisConf {
         template.setDefaultSerializer(userJackson2JsonRedisSerializer);
         return template;
     }
-    @Bean
+    @Bean(name = "userRedisCacheManager")
     public RedisCacheManager userRedisCacheManager(RedisConnectionFactory redisConnectionFactory){
         RedisCacheManager.RedisCacheManagerBuilder builder = RedisCacheManager
                 .builder(redisConnectionFactory);

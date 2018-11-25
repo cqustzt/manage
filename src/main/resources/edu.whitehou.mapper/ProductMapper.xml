@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.whitehou.mapper.ProductMapper">
+    <select id="findAllProduct" resultType="edu.whitehou.entity.Product">
+        select  id,productId,productname,identity,state,price from product_msg where 1=1;
+    </select>
+    <select id="findProductById" resultType="edu.whitehou.entity.Product">
+        select  id,productId,productname,identity,state,price from product_msg where id=#{id}
+    </select>
+    <insert id="addProduct" useGeneratedKeys="true" keyProperty="id">
+        insert into product_msg(productId,productname,identity,state,price) values (productId=#{productId},productname=#{productName},identity=#{identity},state=#{state},price=#{price})
+    </insert>
+    <update id="updateProduct">
+        update product_msg set productId=#{productId},productname=#{productName},identity=#{identity},state=#{state},price=#{price} where id=#{id}
+    </update>
+    <delete id="deleteProduct">
+        delete from product_msg where id=#{id}
+    </delete>
+</mapper>
