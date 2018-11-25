@@ -1,6 +1,10 @@
 package edu.whitehou.config;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.whitehou.entity.User;
+import edu.whitehou.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +19,7 @@ import org.springframework.data.redis.serializer.RedisSerializationContext;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import javax.cache.CacheManager;
+import java.time.Duration;
 
 /**
  * @author : white.hou
@@ -23,21 +28,30 @@ import javax.cache.CacheManager;
  */
 @Configuration
 public class RedisConf {
-    @Bean(name = "userRedisTemplate")
+    @Bean
     public RedisTemplate<Object, User> userRedisTemplate(RedisConnectionFactory redisConnectionFactory) {
         RedisTemplate<Object, User> template = new RedisTemplate<>();
         template.setConnectionFactory(redisConnectionFactory);
-        Jackson2JsonRedisSerializer<User> userJackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer<>(User.class);
+/*        Jackson2JsonRedisSerializer userJackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
+        ObjectMapper objectMapper=new ObjectMapper();
+        objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
+        objectMapper.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
+        userJackson2JsonRedisSerializer.setObjectMapper(objectMapper);
+        // 设置value的序列化规则和 key的序列化规则
+        template.setValueSerializer(userJackson2JsonRedisSerializer);
+        template.setHashValueSerializer(userJackson2JsonRedisSerializer);
+        template.setKeySerializer(userJackson2JsonRedisSerializer);
+        template.setHashKeySerializer(template.getKeySerializer());
+        template.afterPropertiesSet();
+        return template;*/
+        Jackson2JsonRedisSerializer<User> userJackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer<User>(User.class);
         template.setDefaultSerializer(userJackson2JsonRedisSerializer);
         return template;
     }
     @Bean
     public RedisCacheManager userRedisCacheManager(RedisConnectionFactory redisConnectionFactory){
-         RedisCacheManager.RedisCacheManagerBuilder builder = RedisCacheManager.builder(redisConnectionFactory);
-        RedisCacheConfiguration config = RedisCacheConfiguration.defaultCacheConfig()
-                .serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(new StringRedisSerializer()))
-                .serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(new Jackson2JsonRedisSerializer<>(User.class)));
-        RedisCacheManager cacheManager = RedisCacheManager.builder(redisConnectionFactory).cacheDefaults(config).build();
-        return cacheManager;
+        RedisCacheManager.RedisCacheManagerBuilder builder = RedisCacheManager
+                .builder(redisConnectionFactory);
+        return builder.build();
     }
 }

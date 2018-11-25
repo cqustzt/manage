@@ -4,7 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/RootMapper.java" line="24" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c09980a-9c19-4b1f-adfa-50620a95bf6b" name="Default" comment="" />
+    <list default="true" id="0c09980a-9c19-4b1f-adfa-50620a95bf6b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -63,24 +70,73 @@
       <file leaf-file-name="RedisConf.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="38" column="92" lean-forward="true" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
+            <state relative-caret-position="434">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2417#2423#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <file leaf-file-name="ManageApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16412">
-              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+            <state relative-caret-position="172">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleCacheConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
               <folding>
-                <element signature="e#17198#17199#0" expanded="true" />
-                <element signature="e#17240#17241#0" expanded="true" />
+                <element signature="e#0#1967#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisCacheManager.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <element signature="e#11120#11121#0" expanded="true" />
+                <element signature="e#11159#11160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisSerializationContext.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-44">
+              <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheKeyPrefix.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/CacheKeyPrefix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -88,8 +144,26 @@
       <file leaf-file-name="RedisCacheConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="71" column="41" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="41" />
+            <state relative-caret-position="352">
+              <caret line="79" column="55" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jackson2JsonRedisSerializer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheManager.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/CacheManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -112,6 +186,8 @@
       <find>AutoConfig</find>
       <find>RedisCacheConfi</find>
       <find>RedisA</find>
+      <find>Bean</find>
+      <find>JDK</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,23 +211,17 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/PageConf.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/RootService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceeTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/entity/PageBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/PageConf.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/entity/PageBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java" />
@@ -160,19 +230,25 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" />
       </list>
@@ -211,10 +287,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="2310" />
+    <option name="y" value="68" />
+    <option name="width" value="1400" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,7 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,6 +313,119 @@
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
@@ -259,6 +448,29 @@
               <item name="Maven: org.springframework.boot:spring-boot-starter-cache:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-boot-starter-cache-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-starter-data-redis-2.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-starter-data-redis-2.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
@@ -294,11 +506,36 @@
               <item name="redis" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+              <item name="lettuce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="serializer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +544,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="RedisAutoCon&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java&#10;RedisOperations&#9;PSI&#9;JAVA://org.springframework.data.redis.core.RedisOperations&#10;CacheManager&#9;PSI&#9;JAVA://org.springframework.cache.CacheManager&#10;RedisAuto&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java&#10;RedisTem&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java&#10;Simp&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java&#10;org.springframework.data.redis.connection.RedisConnectionFactory&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.RedisConnectionFactory&#10;RedisCacheConfi&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheConfiguration&#10;RedisCacheConfig&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheConfiguration&#10;RedisCacheManager&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheManager&#10;RedisCache&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;SimpleC&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java&#10;RedisC&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;RedisCacheCon&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class&#10;RedisCacheM&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java&#10;RedisA&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java&#10;currentPage&#9;PSI&#9;JAVA://edu.whitehou.entity.PageBean#getCurrentPage&#10;da&#9;FILE&#9;file://F:/manage/src/main/resources/templates/dashboard.html" />
+    <property name="SearchEverywhereHistoryKey" value="loadCache&#9;PSI&#9;JAVA://org.springframework.cglib.core.internal.LoadingCache&#10;RedisCacheConfig&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.java&#10;RedisCacheManage&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java&#10;SimpleC&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java&#10;CacheManage&#9;PSI&#9;JAVA://org.springframework.cache.CacheManager&#10;RedisAutoCon&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java&#10;RedisOperations&#9;PSI&#9;JAVA://org.springframework.data.redis.core.RedisOperations&#10;CacheManager&#9;PSI&#9;JAVA://org.springframework.cache.CacheManager&#10;RedisAuto&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java&#10;RedisTem&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java&#10;Simp&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java&#10;org.springframework.data.redis.connection.RedisConnectionFactory&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.RedisConnectionFactory&#10;RedisCacheConfi&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheConfiguration&#10;RedisCacheManager&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheManager&#10;RedisCache&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;RedisC&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;RedisCacheCon&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class&#10;RedisCacheM&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java&#10;RedisA&#9;FILE&#9;jar://C:/Users/White.Hou/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java&#10;currentPage&#9;PSI&#9;JAVA://edu.whitehou.entity.PageBean#getCurrentPage&#10;da&#9;FILE&#9;file://F:/manage/src/main/resources/templates/dashboard.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -354,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageApplication">
+  <component name="RunManager" selected="JUnit.ManageApplicationRedisTests.contextLoads">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -404,6 +641,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ManageApplicationRedisTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.whitehou.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.whitehou.manage" />
+      <option name="MAIN_CLASS_NAME" value="edu.whitehou.manage.ManageApplicationRedisTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="ManageApplicationServiceTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="manage" />
       <extension name="coverage">
@@ -416,29 +676,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.whitehou.manage" />
       <option name="MAIN_CLASS_NAME" value="edu.whitehou.manage.ManageApplicationServiceTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ManageApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="manage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.whitehou.manage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.whitehou.manage" />
-      <option name="MAIN_CLASS_NAME" value="edu.whitehou.manage.ManageApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -496,13 +733,13 @@
     <list>
       <item itemvalue="Spring Boot.ManageApplication" />
       <item itemvalue="JUnit.ManageApplicationMabtisTests.contextLoads" />
-      <item itemvalue="JUnit.ManageApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.ManageApplicationRedisTests.contextLoads" />
       <item itemvalue="JUnit.ManageApplicationServiceTests.contextLoads" />
       <item itemvalue="JUnit.ManageApplicationMabtisTests.TestRedis" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ManageApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ManageApplicationRedisTests.contextLoads" />
         <item itemvalue="JUnit.ManageApplicationMabtisTests.contextLoads" />
         <item itemvalue="JUnit.ManageApplicationMabtisTests.TestRedis" />
         <item itemvalue="JUnit.ManageApplicationServiceTests.contextLoads" />
@@ -548,6 +785,8 @@
       <workItem from="1542959791662" duration="10640000" />
       <workItem from="1543028271222" duration="2910000" />
       <workItem from="1543042640466" duration="4200000" />
+      <workItem from="1543055369315" duration="1180000" />
+      <workItem from="1543061184769" duration="14008000" />
     </task>
     <task id="LOCAL-00001" summary="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */">
       <created>1542509063789</created>
@@ -577,82 +816,90 @@
       <option name="project" value="LOCAL" />
       <updated>1542887470141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="/**&#10;  * @author: white,hou&#10;  * @description: redis缓存的相关配置&#10;  */">
+      <created>1543055449614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543055449615</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManageApplicationServiceTests_contextLoads - 2018.11.20 at 16h 21m 13s.xml">
-      <configuration name="ManageApplicationServiceTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManageApplicationMabtisTests_TestRedis - 2018.11.23 at 13h 46m 48s.xml">
-      <configuration name="ManageApplicationMabtisTests.TestRedis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManageApplicationMabtisTests_TestRedis - 2018.11.23 at 13h 52m 10s.xml">
-      <configuration name="ManageApplicationMabtisTests.TestRedis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManageApplicationMabtisTests_TestRedis - 2018.11.23 at 13h 54m 01s.xml">
-      <configuration name="ManageApplicationMabtisTests.TestRedis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManageApplicationMabtisTests_contextLoads - 2018.11.23 at 13h 57m 14s.xml">
-      <configuration name="ManageApplicationMabtisTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.23 at 13h 58m 01s.xml">
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 09h 43m 56s.xml">
       <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.23 at 13h 59m 44s.xml">
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 07m 33s.xml">
       <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.23 at 14h 00m 14s.xml">
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 19m 47s.xml">
       <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.23 at 14h 15m 16s.xml">
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 21m 58s.xml">
       <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.23 at 14h 48m 57s.xml">
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 22m 27s.xml">
+      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 23m 42s.xml">
+      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 24m 35s.xml">
+      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 25m 21s.xml">
+      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 26m 29s.xml">
+      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 27m 24s.xml">
       <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136858000" />
+    <option name="totallyTimeSpent" value="152046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32908848" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.39179105" />
       <window_info anchor="bottom" id="Statistic" order="7" weight="0.36376604" />
-      <window_info anchor="right" id="Database" order="3" weight="0.23667377" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25820258" />
+      <window_info anchor="right" id="Database" order="4" weight="0.23667377" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.3140394" visible="true" weight="0.27132195" />
+      <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5449358" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3266762" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" visible="true" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.36947218" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" weight="0.4978602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.18429662" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29155496" />
-      <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297587" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6859606" visible="true" weight="0.19296375" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3297587" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.55128205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.39179105" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -726,14 +973,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */" />
-    <option name="LAST_COMMIT_MESSAGE" value="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */" />
+    <MESSAGE value="/**&#10;  * @author: white,hou&#10;  * @description: redis缓存的相关配置&#10;  */" />
+    <option name="LAST_COMMIT_MESSAGE" value="/**&#10;  * @author: white,hou&#10;  * @description: redis缓存的相关配置&#10;  */" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -756,118 +1004,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret column="17" selection-start-column="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/core/StringRedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/shiro/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-735">
-          <caret line="22" column="125" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/shiro/RootRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="65" column="44" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="46" column="134" selection-start-line="46" selection-start-column="112" selection-end-line="46" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/core/io/ResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="62" column="67" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/cache/annotation/Cacheable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/annotation/CacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="59" column="76" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/annotation/Cacheable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -875,38 +1011,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/CacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar!/javax/cache/CacheManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -931,27 +1039,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/2.0.4.RELEASE/spring-boot-starter-data-redis-2.0.4.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
           <caret line="67" column="17" selection-start-line="62" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -983,35 +1074,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/RootService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/config/PageConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,13 +1129,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-cache/2.1.0.RELEASE/spring-boot-starter-cache-2.1.0.RELEASE.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://SPRING/mappedClass=org.springframework.data.redis.cache.RedisCacheManager">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1104,12 +1163,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.7592817164179103" x="3351.9231525277964" y="1609.767184716506" />
+          <settings layout="Hierarchic Group" zoom="0.7592817164179103" x="3352.0" y="1610.0" />
           <SelectedNodes />
           <Categories>
             <Category>Local context</Category>
             <Category>Properties</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1149,24 +1209,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/RootService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="45" />
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="2222">
+          <caret line="119" column="60" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/DefaultRedisCacheWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4198">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="50" />
+        <state relative-caret-position="154">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1177,30 +1240,329 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/DefaultRedisCacheWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/annotation/EnableCaching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="171" column="17" selection-start-line="171" selection-start-column="17" selection-end-line="171" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/annotation/CachingConfigurationSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="57" column="62" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/config/PageConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/DefaultSerializationPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.data.redis.serializer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.data.redis.serializer</OriginalElement>
+          <nodes>
+            <node x="705.0" y="90.0">org.springframework.data.redis.serializer.OxmSerializer</node>
+            <node x="304.0" y="165.0">org.springframework.data.redis.serializer.RedisElementReader</node>
+            <node x="517.0" y="90.0">org.springframework.data.redis.serializer.StringRedisSerializer</node>
+            <node x="447.0" y="320.0">org.springframework.data.redis.serializer.SerializationUtils</node>
+            <node x="275.0" y="90.0">org.springframework.data.redis.serializer.JdkSerializationRedisSerializer</node>
+            <node x="283.0" y="245.0">org.springframework.data.redis.serializer.DefaultRedisElementReader</node>
+            <node x="0.0" y="320.0">org.springframework.data.redis.serializer.DefaultSerializationPair</node>
+            <node x="853.0" y="90.0">org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer</node>
+            <node x="636.0" y="320.0">org.springframework.data.redis.serializer.package-info</node>
+            <node x="0.0" y="245.0">org.springframework.data.redis.serializer.DefaultRedisSerializationContext</node>
+            <node x="21.0" y="165.0">org.springframework.data.redis.serializer.RedisSerializationContext</node>
+            <node x="558.5" y="165.0">org.springframework.data.redis.serializer.RedisElementWriter</node>
+            <node x="1083.0" y="90.0">org.springframework.data.redis.serializer.GenericToStringSerializer</node>
+            <node x="0.0" y="90.0">org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer</node>
+            <node x="788.0" y="165.0">org.springframework.data.redis.serializer.RedisSerializerToSerializationPairAdapter</node>
+            <node x="538.0" y="245.0">org.springframework.data.redis.serializer.DefaultRedisElementWriter</node>
+            <node x="226.0" y="320.0">org.springframework.data.redis.serializer.SerializationException</node>
+            <node x="619.0" y="0.0">org.springframework.data.redis.serializer.RedisSerializer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.data.redis.serializer.StringRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-15.0" />
+              <point x="601.0" y="70.0" />
+              <point x="674.0" y="70.0" />
+              <point x="-11.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.DefaultRedisSerializationContext" target="org.springframework.data.redis.serializer.RedisSerializationContext">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.OxmSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-15.0" />
+              <point x="769.0" y="70.0" />
+              <point x="696.0" y="70.0" />
+              <point x="11.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.DefaultRedisElementReader" target="org.springframework.data.redis.serializer.RedisElementReader">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-15.0" />
+              <point x="958.0" y="60.0" />
+              <point x="718.0" y="60.0" />
+              <point x="33.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-15.0" />
+              <point x="127.5" y="50.0" />
+              <point x="630.0" y="50.0" />
+              <point x="-55.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.GenericToStringSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-15.0" />
+              <point x="1181.0" y="50.0" />
+              <point x="740.0" y="50.0" />
+              <point x="55.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.DefaultRedisElementWriter" target="org.springframework.data.redis.serializer.RedisElementWriter">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-15.0" />
+              <point x="386.0" y="60.0" />
+              <point x="652.0" y="60.0" />
+              <point x="-33.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.897459584295612" x="266.421513124035" y="75.27406073082861" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.data.redis.cache">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.data.redis.cache</OriginalElement>
+          <nodes>
+            <node x="252.0" y="1268.0">org.springframework.data.redis.cache.package-info</node>
+            <node x="593.5" y="381.0">org.springframework.data.redis.cache.RedisCacheManager.RedisCacheManagerBuilder</node>
+            <node x="0.0" y="0.0">org.springframework.data.redis.cache.RedisCacheWriter</node>
+            <node x="543.0" y="0.0">org.springframework.data.redis.cache.RedisCacheManager</node>
+            <node x="0.0" y="1268.0">org.springframework.data.redis.cache.CacheKeyPrefix</node>
+            <node x="12.5" y="241.0">org.springframework.data.redis.cache.DefaultRedisCacheWriter</node>
+            <node x="0.0" y="731.0">org.springframework.data.redis.cache.RedisCacheConfiguration</node>
+            <node x="913.0" y="731.0">org.springframework.data.redis.cache.RedisCache</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.data.redis.cache.RedisCacheManager.RedisCacheManagerBuilder" target="org.springframework.data.redis.cache.RedisCacheManager">
+              <point x="0.0" y="-119.0" />
+              <point x="0.0" y="165.5" />
+            </edge>
+            <edge source="org.springframework.data.redis.cache.DefaultRedisCacheWriter" target="org.springframework.data.redis.cache.RedisCacheWriter">
+              <point x="0.0" y="-222.5" />
+              <point x="0.0" y="95.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="94.5" y="180.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/CacheKeyPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/support/SimpleCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/core/internal/LoadingCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="71" column="41" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="41" />
+        <state relative-caret-position="352">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#11120#11121#0" expanded="true" />
+            <element signature="e#11159#11160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16412">
+        <state relative-caret-position="22">
           <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
           <folding>
-            <element signature="e#17198#17199#0" expanded="true" />
-            <element signature="e#17240#17241#0" expanded="true" />
+            <element signature="e#16790#16791#0" expanded="true" />
+            <element signature="e#16821#16822#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#1967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="38" column="92" lean-forward="true" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
+        <state relative-caret-position="434">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2417#2423#0" expanded="true" />
           </folding>
         </state>
       </provider>
