@@ -1,7 +1,9 @@
 package edu.whitehou.manage;
 
+import edu.whitehou.entity.Order;
 import edu.whitehou.entity.Root;
 import edu.whitehou.entity.User;
+import edu.whitehou.mapper.OrderMapper;
 import edu.whitehou.mapper.RootMapper;
 import edu.whitehou.mapper.UserMapper;
 import org.junit.Test;
@@ -29,6 +31,8 @@ public class ManageApplicationMabtisTests {
     private RootMapper rootMapper;
     @Autowired
     private UserMapper userMapper;
+   @Autowired
+    private OrderMapper orderMapper;
 
     @Test
     public void contextLoads() {
@@ -44,8 +48,19 @@ public class ManageApplicationMabtisTests {
         /*Collection<Root> allRoot = rootMapper.findAllRoots();
         System.out.println(allRoot);
 */
-        Integer userCountNum = userMapper.findUserCountNum();
-        System.out.println(userCountNum);
+ /*       Integer userCountNum = userMapper.findUserCountNum();
+        System.out.println(userCountNum);*/
+        /*Collection<Order> orderByUserId = orderMapper.findOrderByUserId("17020100013");
+        System.out.println(orderByUserId);
+
+        Collection<Order> allOrder = orderMapper.findAllOrder();
+        System.out.println(allOrder);
+        */
+/*        Collection<Order> orderByProductId = orderMapper.findOrderByProductId("1100");
+        System.out.println(orderByProductId);*/
+        Collection<Order> orderByCondition = orderMapper.findOrderByCondition("17020100013", "1100");
+        System.out.println(orderByCondition);
+
 
     }
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.whitehou.mapper.OrderMapper">
+    <select id="findOrderByUserId" resultType="edu.whitehou.entity.Order">
+        select o.orderId,o.productId,o.userId,o.payment,o.paymentType,o.paymentTime,o.creatTime,o.endTime,o.closeTime,o.status,
+            u.userId,u.username,u.gender,u.identity,u.collage,u.grade,u.phone
+        from order_msg o left join user_account_msg u
+            on o.userId = u.userId
+    </select>
+    <select id="findAllOrder" resultType="edu.whitehou.entity.Order">
+        select o.orderId,o.productId,o.userId,o.payment,o.paymentType,o.paymentTime,o.creatTime,o.endTime,o.closeTime,o.status
+        from order_msg o where 1=1
+    </select>
+    <select id="findOrderByOrdeerId" resultType="edu.whitehou.entity.Order">
+        select o.orderId,o.productId,o.userId,o.payment,o.paymentType,o.paymentTime,o.creatTime,o.endTime,o.closeTime,o.status
+        from order_msg o where o.orderId=#{orderId}
+    </select>
+    <select id="findOrderByProductId" resultType="edu.whitehou.entity.Order">
+        select o.orderId,o.productId,o.userId,o.payment,o.paymentType,o.paymentTime,o.creatTime,o.endTime,o.closeTime,o.status,
+            p.productId,p.productname,p.state,p.identity,p.price
+        from order_msg o left join product_msg p
+            on o.productId = p.productId
+    </select>
+    <select id="findOrderByCondition" resultType="edu.whitehou.entity.Order">
+        select o.orderId,o.productId,o.userId,o.payment,o.paymentType,o.paymentTime,o.creatTime,o.endTime,o.closeTime,o.status,
+            p.productId,p.productname,p.state,p.identity,p.price,u.userId,u.username,u.gender,u.identity,u.collage,u.grade,u.phone
+        from order_msg o
+            inner join product_msg p
+                on o.productId = p.productId
+            inner join user_account_msg u
+                on o.userId = u.userId
+    </select>
+</mapper>

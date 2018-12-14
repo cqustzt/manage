@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/RootMapper.java" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/RootMapper.java" line="24" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c09980a-9c19-4b1f-adfa-50620a95bf6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84fb0e77-82d2-4dd0-89ff-603fea0bb34a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84fb0e77-82d2-4dd0-89ff-603fea0bb34a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/commons/bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/commons/bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/root/msg.html" beforeDir="false" />
+    <list default="true" id="0c09980a-9c19-4b1f-adfa-50620a95bf6b" name="Default" comment="/**&#10;  * @author: white,hou&#10;  * @description: 订单管理&#10;  */">
+      <change afterPath="$PROJECT_DIR$/../manage/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage/src/main/resources/edu.whitehou.mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage/src/main/resources/templates/order/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage/.idea/dataSources/84fb0e77-82d2-4dd0-89ff-603fea0bb34a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/.idea/dataSources/84fb0e77-82d2-4dd0-89ff-603fea0bb34a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage/manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage/src/main/resources/templates/commons/bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/main/resources/templates/commons/bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage/src/main/resources/templates/order/orderlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manage/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,48 +53,16 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="swimcenter@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="swimcenter@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="swimcenter@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="swimcenter: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="swimcenter@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="swimcenter: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="product_msg: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="swimcenter@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/commons/bar.html">
+      <file leaf-file-name="OrderMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/OrderMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="594">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,88 +70,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/RootController.java">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="88" selection-start-line="88" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="1518">
+              <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/add.html">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="78" column="75" lean-forward="true" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
+            <state relative-caret-position="1056">
+              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/shiro/RootRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-352">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/shiro/ShiroConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/list.html">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/order/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="75" column="60" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="60" />
+            <state relative-caret-position="638">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/shiro/ShiroConfig.java">
+      <file leaf-file-name="RootController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/RootController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="47" column="49" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="49" />
+            <state relative-caret-position="301">
+              <caret line="28" selection-start-line="28" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/ProductMapper.xml">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RootMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/RootMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/ProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="440">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -212,14 +180,17 @@
       <find>JDK</find>
       <find>user</find>
       <find>root</find>
+      <find>Wa</find>
+      <find>product</find>
     </findStrings>
     <replaceStrings>
       <replace>product</replace>
+      <replace>order</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../manage" />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SCOPE" value="All" />
@@ -227,25 +198,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceeTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/entity/PageBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/config/PageConf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/entity/PageBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/user/list.html" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java" />
@@ -270,14 +227,28 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/ProductMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/shiro/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/RootController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/product/list.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/product/add.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/commons/bar.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product/add.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/order/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/whitehou/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/shiro/ShiroConfig.java" />
       </list>
     </option>
   </component>
@@ -314,10 +285,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1965" />
-    <option name="y" value="80" />
-    <option name="width" value="1551" />
-    <option name="height" value="839" />
+    <option name="x" value="-10" />
+    <option name="y" value="50" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -327,8 +298,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,24 +333,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="whitehou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="whitehou" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
@@ -465,7 +419,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
@@ -480,24 +434,6 @@
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -522,108 +458,33 @@
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-cache:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.8 (1) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-cache:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-starter-cache-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-cache:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-starter-cache-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-starter-data-redis-2.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-starter-data-redis-2.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-              <item name="lettuce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-redis:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-redis-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -683,6 +544,29 @@
   <component name="RunManager" selected="Spring Boot.ManageApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ManageApplicationMabtisTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.whitehou.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.whitehou.manage" />
+      <option name="MAIN_CLASS_NAME" value="edu.whitehou.manage.ManageApplicationMabtisTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ManageApplicationMabtisTests.TestRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="manage" />
@@ -825,11 +709,13 @@
       <item itemvalue="JUnit.ManageApplicationRedisTests.contextLoads" />
       <item itemvalue="JUnit.ManageApplicationServiceTests.contextLoads" />
       <item itemvalue="JUnit.ManageApplicationMabtisTests.TestRedis" />
+      <item itemvalue="JUnit.ManageApplicationMabtisTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ManageApplicationRedisTests.contextLoads" />
         <item itemvalue="JUnit.ManageApplicationMabtisTests.contextLoads" />
+        <item itemvalue="JUnit.ManageApplicationMabtisTests" />
+        <item itemvalue="JUnit.ManageApplicationRedisTests.contextLoads" />
         <item itemvalue="JUnit.ManageApplicationMabtisTests.TestRedis" />
         <item itemvalue="JUnit.ManageApplicationServiceTests.contextLoads" />
       </list>
@@ -878,7 +764,16 @@
       <workItem from="1543061184769" duration="18225000" />
       <workItem from="1543129868816" duration="838000" />
       <workItem from="1543132559706" duration="3521000" />
-      <workItem from="1543147419532" duration="2699000" />
+      <workItem from="1543147419532" duration="4440000" />
+      <workItem from="1543206895272" duration="3807000" />
+      <workItem from="1543314455046" duration="612000" />
+      <workItem from="1543842794026" duration="5463000" />
+      <workItem from="1543912719295" duration="7194000" />
+      <workItem from="1544519970176" duration="4489000" />
+      <workItem from="1544535602399" duration="435000" />
+      <workItem from="1544600179924" duration="1016000" />
+      <workItem from="1544750736217" duration="4000" />
+      <workItem from="1544752640177" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */">
       <created>1542509063789</created>
@@ -922,71 +817,77 @@
       <option name="project" value="LOCAL" />
       <updated>1543123340888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="/**&#10;  * @author: white,hou&#10;  * @description: 补充商品的crud&#10;  */">
+      <created>1543150164060</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543150164060</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 19m 47s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests_contextLoads - 2018.12.04 at 09h 07m 20s.xml">
+      <configuration name="ManageApplicationMabtisTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 21m 58s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests - 2018.12.04 at 09h 07m 29s.xml">
+      <configuration name="ManageApplicationMabtisTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 22m 27s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests - 2018.12.04 at 09h 08m 53s.xml">
+      <configuration name="ManageApplicationMabtisTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 23m 42s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests - 2018.12.04 at 09h 09m 33s.xml">
+      <configuration name="ManageApplicationMabtisTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 24m 35s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests - 2018.12.04 at 09h 51m 06s.xml">
+      <configuration name="ManageApplicationMabtisTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 25m 21s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests_contextLoads - 2018.12.04 at 09h 53m 02s.xml">
+      <configuration name="ManageApplicationMabtisTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 26m 29s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests_contextLoads - 2018.12.04 at 16h 47m 31s.xml">
+      <configuration name="ManageApplicationMabtisTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationTests_contextLoads - 2018.11.25 at 10h 27m 24s.xml">
-      <configuration name="ManageApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests_contextLoads - 2018.12.04 at 17h 19m 29s.xml">
+      <configuration name="ManageApplicationMabtisTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationRedisTests_contextLoads - 2018.11.25 at 13h 18m 44s.xml">
-      <configuration name="ManageApplicationRedisTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests_contextLoads - 2018.12.04 at 17h 28m 06s.xml">
+      <configuration name="ManageApplicationMabtisTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManageApplicationRedisTests_contextLoads - 2018.11.25 at 13h 19m 07s.xml">
-      <configuration name="ManageApplicationRedisTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ManageApplicationMabtisTests_contextLoads - 2018.12.04 at 17h 57m 38s.xml">
+      <configuration name="ManageApplicationMabtisTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163321000" />
+    <option name="totallyTimeSpent" value="188910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32889125" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.16262482" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" weight="0.36376604" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.23667377" />
-      <window_info anchor="right" id="Structure" order="10" sideWeight="0.3140394" side_tool="true" weight="0.27132195" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15281501" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.3140394" side_tool="true" weight="0.2707775" />
       <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5449358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29957205" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3266762" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.20610687" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" weight="0.4978602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.16262482" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6859606" visible="true" weight="0.19296375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6859606" visible="true" weight="0.18766756" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.3297587" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -995,10 +896,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.55128205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.39179105" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -1015,7 +916,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
-      <window_info anchor="bottom" id="Statistic" order="11" weight="0.36376604" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3266762" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Image Layers" order="3" />
@@ -1024,11 +925,11 @@
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49865952" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32908848" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17426273" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3266762" />
       <window_info anchor="right" id="Database" order="6" weight="0.23695976" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.36376604" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1074,14 +975,15 @@
     <MESSAGE value="/**&#10;  * @author: white,hou&#10;  * @description: 初步完成了该项目后台管理模块中关于 管理员 / 用户的管理工作&#10;  */" />
     <MESSAGE value="/**&#10;  * @author: white,hou&#10;  * @description: redis缓存的相关配置&#10;  */" />
     <MESSAGE value="/**&#10;  * @author: white,hou&#10;  * @description: 更新redis相关设置 包括redisTemplate和redisCacheManage&#10;  */" />
-    <option name="LAST_COMMIT_MESSAGE" value="/**&#10;  * @author: white,hou&#10;  * @description: 更新redis相关设置 包括redisTemplate和redisCacheManage&#10;  */" />
+    <MESSAGE value="/**&#10;  * @author: white,hou&#10;  * @description: 补充商品的crud&#10;  */" />
+    <option name="LAST_COMMIT_MESSAGE" value="/**&#10;  * @author: white,hou&#10;  * @description: 补充商品的crud&#10;  */" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1104,344 +1006,47 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="57" column="67" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/config/PageConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/DefaultSerializationPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.data.redis.serializer">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.data.redis.serializer</OriginalElement>
-          <nodes>
-            <node x="705.0" y="90.0">org.springframework.data.redis.serializer.OxmSerializer</node>
-            <node x="304.0" y="165.0">org.springframework.data.redis.serializer.RedisElementReader</node>
-            <node x="517.0" y="90.0">org.springframework.data.redis.serializer.StringRedisSerializer</node>
-            <node x="447.0" y="320.0">org.springframework.data.redis.serializer.SerializationUtils</node>
-            <node x="275.0" y="90.0">org.springframework.data.redis.serializer.JdkSerializationRedisSerializer</node>
-            <node x="283.0" y="245.0">org.springframework.data.redis.serializer.DefaultRedisElementReader</node>
-            <node x="0.0" y="320.0">org.springframework.data.redis.serializer.DefaultSerializationPair</node>
-            <node x="853.0" y="90.0">org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer</node>
-            <node x="636.0" y="320.0">org.springframework.data.redis.serializer.package-info</node>
-            <node x="0.0" y="245.0">org.springframework.data.redis.serializer.DefaultRedisSerializationContext</node>
-            <node x="21.0" y="165.0">org.springframework.data.redis.serializer.RedisSerializationContext</node>
-            <node x="558.5" y="165.0">org.springframework.data.redis.serializer.RedisElementWriter</node>
-            <node x="1083.0" y="90.0">org.springframework.data.redis.serializer.GenericToStringSerializer</node>
-            <node x="0.0" y="90.0">org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer</node>
-            <node x="788.0" y="165.0">org.springframework.data.redis.serializer.RedisSerializerToSerializationPairAdapter</node>
-            <node x="538.0" y="245.0">org.springframework.data.redis.serializer.DefaultRedisElementWriter</node>
-            <node x="226.0" y="320.0">org.springframework.data.redis.serializer.SerializationException</node>
-            <node x="619.0" y="0.0">org.springframework.data.redis.serializer.RedisSerializer</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.data.redis.serializer.StringRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-              <point x="0.0" y="-15.0" />
-              <point x="601.0" y="70.0" />
-              <point x="674.0" y="70.0" />
-              <point x="-11.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.DefaultRedisSerializationContext" target="org.springframework.data.redis.serializer.RedisSerializationContext">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.OxmSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-              <point x="0.0" y="-15.0" />
-              <point x="769.0" y="70.0" />
-              <point x="696.0" y="70.0" />
-              <point x="11.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.DefaultRedisElementReader" target="org.springframework.data.redis.serializer.RedisElementReader">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-              <point x="0.0" y="-15.0" />
-              <point x="958.0" y="60.0" />
-              <point x="718.0" y="60.0" />
-              <point x="33.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-              <point x="0.0" y="-15.0" />
-              <point x="127.5" y="50.0" />
-              <point x="630.0" y="50.0" />
-              <point x="-55.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.GenericToStringSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-              <point x="0.0" y="-15.0" />
-              <point x="1181.0" y="50.0" />
-              <point x="740.0" y="50.0" />
-              <point x="55.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.DefaultRedisElementWriter" target="org.springframework.data.redis.serializer.RedisElementWriter">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-              <point x="0.0" y="-15.0" />
-              <point x="386.0" y="60.0" />
-              <point x="652.0" y="60.0" />
-              <point x="-33.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.897459584295612" x="266.0" y="75.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.data.redis.cache">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.data.redis.cache</OriginalElement>
-          <nodes>
-            <node x="252.0" y="1268.0">org.springframework.data.redis.cache.package-info</node>
-            <node x="593.5" y="381.0">org.springframework.data.redis.cache.RedisCacheManager.RedisCacheManagerBuilder</node>
-            <node x="0.0" y="0.0">org.springframework.data.redis.cache.RedisCacheWriter</node>
-            <node x="543.0" y="0.0">org.springframework.data.redis.cache.RedisCacheManager</node>
-            <node x="0.0" y="1268.0">org.springframework.data.redis.cache.CacheKeyPrefix</node>
-            <node x="12.5" y="241.0">org.springframework.data.redis.cache.DefaultRedisCacheWriter</node>
-            <node x="0.0" y="731.0">org.springframework.data.redis.cache.RedisCacheConfiguration</node>
-            <node x="913.0" y="731.0">org.springframework.data.redis.cache.RedisCache</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.data.redis.cache.RedisCacheManager.RedisCacheManagerBuilder" target="org.springframework.data.redis.cache.RedisCacheManager">
-              <point x="0.0" y="-119.0" />
-              <point x="0.0" y="165.5" />
-            </edge>
-            <edge source="org.springframework.data.redis.cache.DefaultRedisCacheWriter" target="org.springframework.data.redis.cache.RedisCacheWriter">
-              <point x="0.0" y="-222.5" />
-              <point x="0.0" y="95.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="180.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/CacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/CacheKeyPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/support/SimpleCacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/core/internal/LoadingCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="79" column="55" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/SimpleCacheConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="94" column="43" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/cache/annotation/Cacheable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="75" column="23" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/config/RedisConf.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/config/RedisConf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="31" column="56" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/whitehou/manage/ManageApplicationRedisTests.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/test/java/edu/whitehou/manage/ManageApplicationRedisTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="48" column="57" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/ManageApplication.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/ManageApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="8" column="2" selection-start-line="8" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/entity/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/service/ProductService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/RootService.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/service/ProductService.java" />
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/RootService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="119" column="60" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/productlist.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/product/productlist.html" />
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/root/msg.html" />
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/root/msg.html" />
     <entry file="das://84fb0e77-82d2-4dd0-89ff-603fea0bb34a/schema/swimcenter/table/product_msg">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1449,121 +1054,370 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/RootServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/impl/RootServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/RootMapper.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/RootMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/RootMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.whitehou.mapper/ProductMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/user/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="2420">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/commons/bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3046">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/service/service/impl/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/edu.whitehou.mapper/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/impl/UserSeviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
           <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/sql/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1885">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.sql.Time">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.sql.Time</OriginalElement>
+          <nodes>
+            <node x="272.0" y="0.0">java.lang.Cloneable</node>
+            <node x="157.5" y="160.0">java.sql.Time</node>
+            <node x="158.0" y="80.0">java.util.Date</node>
+            <node x="0.0" y="0.0">java.lang.Comparable</node>
+            <node x="139.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.Date" target="java.io.Serializable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.sql.Time" target="java.util.Date">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.Date" target="java.lang.Cloneable">
+              <point x="25.0" y="-15.0" />
+              <point x="220.5" y="55.0" />
+              <point x="325.0" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.Date" target="java.lang.Comparable">
+              <point x="-25.0" y="-15.0" />
+              <point x="170.5" y="55.0" />
+              <point x="59.5" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="27.0" y="106.0" />
+          <SelectedNodes>
+            <node>java.sql.Time</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1049">
+          <caret line="129" column="3" lean-forward="true" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Date">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Date</OriginalElement>
+          <nodes>
+            <node x="272.0" y="0.0">java.lang.Cloneable</node>
+            <node x="158.0" y="80.0">java.util.Date</node>
+            <node x="0.0" y="0.0">java.lang.Comparable</node>
+            <node x="139.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.Date" target="java.io.Serializable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.Date" target="java.lang.Cloneable">
+              <point x="25.0" y="-15.0" />
+              <point x="220.5" y="55.0" />
+              <point x="325.0" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.Date" target="java.lang.Comparable">
+              <point x="-25.0" y="-15.0" />
+              <point x="170.5" y="55.0" />
+              <point x="59.5" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="27.0" y="66.0" />
+          <SelectedNodes>
+            <node>java.util.Date</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="117" column="100" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/edu.whitehou.mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/test/java/edu/whitehou/manage/ManageApplicationMabtisTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/service/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/product/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/product/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="35" selection-end-line="116" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://84fb0e77-82d2-4dd0-89ff-603fea0bb34a/schema/swimcenter/table/order_msg">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="74" column="10" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/edu.whitehou.mapper/RootMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/RootController.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="88" selection-start-line="88" selection-end-line="97" selection-end-column="5" />
+        <state relative-caret-position="1518">
+          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/controller/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/entity/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="154">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/list.html">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="75" column="60" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="60" />
+        <state relative-caret-position="440">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/whitehou/shiro/ShiroConfig.java">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="47" column="49" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="49" />
+        <state relative-caret-position="1056">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/add.html">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/RootController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="78" column="75" lean-forward="true" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
+        <state relative-caret-position="301">
+          <caret line="28" selection-start-line="28" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/commons/bar.html">
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/resources/templates/order/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="638">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/shiro/RootRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../manage/src/main/java/edu/whitehou/shiro/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
         </state>
       </provider>
     </entry>
