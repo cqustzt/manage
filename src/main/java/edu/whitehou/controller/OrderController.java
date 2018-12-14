@@ -1,7 +1,10 @@
 package edu.whitehou.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import edu.whitehou.entity.Order;
 import edu.whitehou.entity.Root;
+import edu.whitehou.entity.User;
 import edu.whitehou.service.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
@@ -26,13 +30,13 @@ public class OrderController {
      * 列表显示所有的订单
      * @return
      */
-    @GetMapping("/orders")
+  /*  @GetMapping("/orders1")
     public String orderList(Model model){
         Collection<Order> allOrder = orderService.findAllOrder();
         model.addAttribute("orders",allOrder);
         System.out.println(model);
         return "order/list";
-    }
+    }*/
 /*
     *//**
      * 调转到具体的根据用户id或者产品id统计的页面
@@ -76,5 +80,19 @@ public class OrderController {
             Collection<Order> orderByCondition = orderService.findOrderByCondition(userId, productId);
             return orderByCondition;
         }
+    }
+
+    @RequestMapping(value = "/orders",method =GET)
+    public String orderItemPages(@RequestParam(value = "pageNum",required = false,defaultValue = "1") int pageNum,@RequestParam(value = "pageSize",required = false,defaultValue = "10") int pageSize,Model model){
+        PageHelper.startPage(pageNum,pageSize);
+        Collection<Order> allOrder = orderService.findAllOrder();
+        PageInfo<Order> orderPageInfo = new PageInfo<>((List<Order>) allOrder,5);
+        model.addAttribute("orderPageInfo",orderPageInfo);
+        model.addAttribute("pageNum",pageNum);
+        model.addAttribute("pageSize",pageSize);
+        model.addAttribute("isFirstPage",orderPageInfo.isIsFirstPage());
+        model.addAttribute("totalPages",orderPageInfo.getPages());
+        model.addAttribute("isLastPage",orderPageInfo.isIsLastPage());
+        return "order/list";
     }
 }

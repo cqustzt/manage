@@ -70,7 +70,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr th:each="order:${orders}">
+                    <tr th:each="order:${orderPageInfo.list}">
                         <td th:text="${order.orderId}"></td>
                         <td th:text="${order.productId}"></td>
                         <td th:text="${order.userId}"></td>
@@ -81,10 +81,39 @@
                         <td th:text="${order.paymentTime}"></td>
                         <td th:text="${order.endTime}"></td>
                         <td th:text="${order.closeTime}"></td>
-
                     </tr>
                     </tbody>
                 </table>
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a th:if="${not isFirstPage}" th:href="@{${'orders'}(pageNum=${pageNum -1},pageSize=${pageSize})}" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                            <a th:if="${isFirstPage}" href="javascript:void(0);" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li th:each="pageNo : ${#numbers.sequence(1, totalPages)}">
+                            <a th:if="${pageNum eq pageNo}" href="javascript:void(0);">
+                                <span th:text="${pageNo}"></span>
+                            </a>
+
+                            <a th:if="${not (pageNum eq pageNo)}" th:href="@{${'orders'}(pageNum=${pageNo},pageSize=${pageSize})}">
+                                <span th:text="${pageNo}"></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a th:if="${not isLastPage}" th:href="@{${'orders'}(pageNum=${pageNum+1},pageSize=${pageSize})}" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                            <a th:if="${isLastPage}" href="javascript:void(0);" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </main>
     </div>
